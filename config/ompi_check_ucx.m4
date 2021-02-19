@@ -157,6 +157,7 @@ AC_DEFUN([OMPI_CHECK_UCX],[
                                          UCP_ATOMIC_FETCH_OP_FOR,
                                          UCP_ATOMIC_FETCH_OP_FXOR,
                                          UCP_PARAM_FIELD_ESTIMATED_NUM_PPN,
+                                         UCP_WORKER_PARAM_FIELD_UUID,
                                          UCP_WORKER_FLAG_IGNORE_REQUEST_LEAK],
                                         [], [],
                                         [#include <ucp/api/ucp.h>])
